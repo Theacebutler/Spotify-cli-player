@@ -1,2 +1,4 @@
-# Spotify-cli-player
-A Spotify player - from the terminal
+#Welcome to SPP
+## Your Spotify player - from the terminal!
+
+

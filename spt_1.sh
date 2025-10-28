@@ -1,0 +1,13 @@
+#! /usr/bin/bash
+#
+# satrt sotify if its not started
+spotify & 
+echo "opening spotify..."
+#
+echo "sleeping..."
+sleep 6
+# send play sig
+echo "sending lpay signal..."
+ dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Play 
+
+ spotify_player
