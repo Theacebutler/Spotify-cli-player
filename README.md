@@ -1,4 +1,4 @@
-#Welcome to SPP
+# Welcome to SPP
 ## Your Spotify player - from the terminal!
 
 
